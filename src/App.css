@@ -1,0 +1,100 @@
+.title__app {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    text-shadow: rgb(6, 36, 101) 1px 0 4px;
+    width: 350px;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.wrap__calc {
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    padding-bottom: 1%;
+}
+
+.all__display {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.display,
+.display2 {
+    width: 88%;
+    padding: 10px;
+    margin: 5px;
+    height: 50px;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.display2  {
+    width: 12%;
+    outline: 1px solid rgb(255, 141, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(55, 55, 55);
+    margin-right: 25px;
+}
+
+.operators button,
+.numbers button {
+    width: 17%;
+    height: 50px;
+    margin: 4px;
+    font-size: 20px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+
+.operators button:active,
+.numbers button:active {
+    opacity: 0.8;
+}
+
+.operators button {
+    background-color: rgb(255, 166, 0);
+    color: white;
+}
+.numbers button {
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
+
+.operators,
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.operators {
+    margin-bottom: 5px;
+}
+
+.numbers{
+    margin-bottom: 15px;
+}
